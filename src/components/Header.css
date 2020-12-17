@@ -1,0 +1,35 @@
+.header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.header__left {
+  display: flex;
+}
+
+.header__logo {
+  height: 40px;
+  object-fit: contain;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.header__search {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  background-color: #eef3f8;
+  border-radius: 5px;
+  height: 22px;
+  color: gray;
+}
+
+.header__searchInput {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.header__right {
+  display: flex;
+}
